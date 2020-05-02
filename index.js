@@ -18,8 +18,8 @@ function onClick(element) {
 }
 
 function changeContent(page) {
-  // $("#main").load("blogs/restful_api.html");
-  $("#main").load("http://localhost:1997/" + page + ".html");
+  $("#main").load("blogs/" + page + ".html");
+  // $("#main").load("http://localhost:1997/" + page + ".html");
 }
 $(document).ready(function() {
   $('#footer').scrollTop($('#footer')[0].scrollHeight);
