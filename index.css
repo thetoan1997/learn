@@ -18,3 +18,8 @@ body {font-size:16px;}
   margin: 0 auto;
   margin-left: -25%;
 }
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
