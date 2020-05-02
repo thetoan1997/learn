@@ -16,3 +16,13 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
+
+function changeContent() {
+  $(".w3-main").load("blogs/restful_api.html");
+}
+$(document).ready(function() {
+  $('#footer').scrollTop($('#footer')[0].scrollHeight);
+  $( "#footer" ).click(function() {
+    alert( "Handler for .click() called." );
+  });
+});
