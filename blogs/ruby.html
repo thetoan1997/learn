@@ -1,0 +1,30 @@
+<!-- Header -->
+<div class="w3-container" style="margin-top:80px" id="showcase">
+  <h1 class="w3-jumbo"><b>RUBY</b></h1>
+</div>
+
+<div class="w3-container" id="services" style="margin-top:75px">
+  <!-- <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1> -->
+  <hr style="width:50px;border:5px solid w3-flat-midnight-blue" class="w3-round">
+  <pre>
+    <b>Reduce and Inject</b>
+    Array.reduce(init_value){|a, b| a*b}
+    [1,2,3].reduce(10){|a,b| a*b} = 60
+    a = [1, 2, 3, 4]
+    a.inject([]) { |arr, n|  arr << n*n }  => result:  [1, 4, 9, 16]
+    
+    Higher order functions are one of the key components of functional programming.
+    A higher order function is a tool that takes other functions as parameters or returns them as a result.
+    a). Passing a block to a method that takes no parameter
+    Blocks are nameless methods that can be passed to another method as a parameter.
+    Passing a block to a method is a great way of data abstraction.
+    def call_block
+        puts "Start of method."
+        yield
+        puts "End of method."
+    end 
+    call_block do 
+        puts "I am inside call_block method."
+    end
+  </pre>
+</div>
